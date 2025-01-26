@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Year Countdown</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Until New Year 🎉</h1>
+        <div class="countdown">
+            <div class="time-segment">
+                <span id="days">00</span>
+                <small>Days</small>
+            </div>
+            <div class="time-segment">
+                <span id="hours">00</span>
+                <small>Hours</small>
+            </div>
+            <div class="time-segment">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+            </div>
+            <div class="time-segment">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
